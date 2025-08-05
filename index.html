@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Assistente de IA</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🤖 Assistente de IA</h1>
+    <label for="apiKey">OpenAI API Key:</label>
+    <input type="password" id="apiKey" placeholder="Insira sua API Key aqui" />
+
+    <label for="model">Modelo:</label>
+    <select id="model">
+      <option value="gpt-1 - Gratuito">GPT-1 - Gratuito</option>
+      <option value="gpt-3.5-turbo">GPT-3.5 - Turbo</option>
+      <option value="gpt-4>GPT-4">GPT-4</option>
+    </select>
+
+    <label for="userInput">Faça sua pergunta:</label>
+    <textarea id="userInput" rows="4" placeholder="Digite sua pergunta aqui..."></textarea>
+
+    <button onclick="consultar()">Perguntar</button>
+
+    <div id="responseBox"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
