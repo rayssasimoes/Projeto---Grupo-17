@@ -1,0 +1,88 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f5f0ff; /* Roxo bem claro no fundo */
+  color: #3d0066; /* Roxo escuro para textos */
+  padding: 20px;
+}
+
+/* Centraliza o conteúdo */
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border: 2px solid #c69cff;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 0 12px rgba(155, 89, 182, 0.2);
+  
+  
+}
+
+/* Título principal */
+h1 {
+  text-align: center;
+  color: #8000c9;
+  margin-bottom: 20px;
+}
+
+
+label {
+  display: flex;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  color: #4b007d;
+  font-weight: bold;
+}
+
+
+input, select, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #c69cff;
+  border-radius: 8px;
+  background-color: #fefaff;
+  font-size: 16px;
+  color: #3d0066;
+  resize: vertical;
+}
+
+/* Botão */
+button {
+  margin-top: 20px;
+  width: 100%;
+  padding: 12px 20px;
+  background-color: #a259ff;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #8000c9;
+}
+
+
+/* Caixa de resposta */
+#responseBox {
+  margin-top: 20px;
+  background-color: #f3e8ff;
+  border: 1px solid #d9b3ff;
+  padding: 15px;
+  border-radius: 8px;
+  min-height: 80px;
+  white-space: pre-wrap;
+}
+
+
+
+
