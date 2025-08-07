@@ -1,0 +1,22 @@
+{
+  "name": "motiva-cli",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "motiva": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "figlet": "^1.8.2",
+    "node-fetch": "^3.3.2"
+  }
+}
+
